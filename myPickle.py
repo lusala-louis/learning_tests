@@ -28,3 +28,13 @@ print(a)
 #print(e)
 for data in a:
     print(data)
+
+#Opening a file and reading from it
+vehicles=['scooter\n', 'tuktuk\n', 'bike\n', 'car\n']
+f=open('vehicles.txt','w+')      #Open a txt file called vehicles as a write file
+f.writelines(vehicles)          #Load data into the file
+
+ #Reading the data from the file
+f=open('vehicles.txt')         
+print (f.readlines())
+f.close()
