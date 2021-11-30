@@ -1,0 +1,4 @@
+scooter
+tuktuk
+bike
+car
