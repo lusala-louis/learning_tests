@@ -1,10 +1,10 @@
 def squareRoot(num):
     root=0
-    i=0.0
+    i=0
     while(i<num): #for i in range(0,num,1):
        if (num==i*i):
            root=i
-    i=i+.1
+       i=i+1
     return root
 j=0
 while(1==1):
